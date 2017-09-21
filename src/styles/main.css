@@ -1,0 +1,25 @@
+.jquery-menu {
+  position: relative;
+  width: 400px;
+}
+ul.menu {
+  position: relative;
+  list-style-type: none;
+}
+li.item {
+  position: relative;
+}
+ul.dropdown {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0px;
+  list-style-type: none;
+  display: none;
+  background-color: blue;
+}
+li.item .button {
+  display: inline-block;
+  height: 50px;
+  background-color: blue;
+}
